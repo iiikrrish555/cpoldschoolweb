@@ -38,4 +38,5 @@ waitForPort = 5000
 [deployment]
 deploymentTarget = "static"
 run = ["gunicorn", "--bind=0.0.0.0:5000", "--reuse-port", "Run:app"]
-publicDir = "public"
+publicDir = "dist"
+build = ["bash", "-c", "rm -rf dist && mkdir -p dist && cp index.html help.html 404.html dist/ && cp -r static dist/static"]
