@@ -1,0 +1,2 @@
+- [Py2 Flask + MySQL import porting](py2-flask-mysql-porting.md) — legacy Python2/MySQL Flask apps: swap to Postgres + shared declarative Base + scoped_session shim.
+- [External redirect/proxy debugging](external-redirect-debugging.md) — check response headers (server/cf-ray) and DNS before blaming app code for wrong-target redirects.

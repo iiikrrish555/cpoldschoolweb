@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.pythonlibs/
+.cache/
+.local/state/
+*.egg-info/
+.venv/
+uv.lock
